@@ -74,7 +74,7 @@ body{
     border-color: #AAAAAA;
 }
 .button1:hover{
-    border: solid #AAAAAA;
+    border: solid dodgerblue;
     border-width: 1vw;
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
@@ -169,17 +169,17 @@ body{
     .select{
         color: #020202;
     }
-    .button{
+    .button1{
         background-color: #AAAAAA;
         color:black
     }
     .fas:active{
         color:#1261a0;
     }
-    .button:active{
+    .button1:active{
         color:#1261a0;
     }
-    .button:hover{
+    .button1:hover{
         border-color: #1261a0;
     }
   }
