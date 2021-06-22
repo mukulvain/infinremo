@@ -10,7 +10,6 @@ body{
     height: 8vw;
     padding: 1vw 2vw;
     font-weight: bold;
-    border-width:0vw;
 
 }
 
@@ -44,15 +43,19 @@ body{
 }
 .button:active{
     color:dodgerblue;
-    
 }
 .button:hover{
     border: solid dodgerblue;
     border-width: 1vw;
-    transition-duration: 400ms;
+    transition-duration: 200ms;
     transition-timing-function: ease-in-out;
     cursor: pointer;
 }
+.select:hover{
+    transition-duration: 0ms;
+
+}
+
 
 .button{
     background-color: #777777;
@@ -140,7 +143,7 @@ body{
 
 
   .theme-switch {
-    top: 2vw;
+    top: 3vw;
     right: 10vw;
     height: 6.5vw;
     position: absolute;
