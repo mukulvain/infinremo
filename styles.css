@@ -74,8 +74,10 @@ body{
 
 
 .select{
-    top:56vw;
-    left:40vw;
+    top:55vw;
+    height:20vw;
+    width: 22vw;
+    left:39vw;
     color:white;
     font-weight: bold;
 }
