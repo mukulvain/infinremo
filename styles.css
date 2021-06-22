@@ -84,6 +84,7 @@ body{
 .disabled{
     color:white;
     opacity: 0.5;
+    cursor: default;
 }
 
 .button2{
@@ -98,6 +99,10 @@ body{
     transition-timing-function: ease-in-out;
     border-color: #AAAAAA;
     opacity:0.5;
+}
+
+.button2:hover{
+    cursor: default;
 }
 
 .disabled:active{
