@@ -10,7 +10,8 @@ body{
     height: 8vw;
     padding: 0vw 2vw ;
     font-weight: bold;
-
+    border: 3px solid #AAAAAA;
+    border-radius: 2vw;
 }
 
 
@@ -29,23 +30,25 @@ body{
     
 }
 
-.fas{
+.enabled{
     color:white;
 }
 .fa-arrow-left{
     position: absolute;
     top: 16vw;
     left: 10vw;
+    cursor: pointer;
+    color:white;
 }
 
-.fas:active{
+.enabled:active{
     color:#00bfff;
 }
-.button:active{
+.button1:active{
     color:#00bfff;
 }
 
-.button:hover{
+.button1:hover{
     border: solid #00bfff;
     border-width: 1vw;
     transition-duration: 200ms;
@@ -54,13 +57,12 @@ body{
 }
 .select:hover{
     transition-duration: 0ms;
-
+    
 }
 
 
-.button{
+.button1{
     background-color: #777777;
-    color:#00bfff;
     position: absolute;
     height:18vw;
     width:20vw;
@@ -71,13 +73,42 @@ body{
     transition-timing-function: ease-in-out;
     border-color: #AAAAAA;
 }
+.button1:hover{
+    border: solid #AAAAAA;
+    border-width: 1vw;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
 
+.disabled{
+    color:white;
+    opacity: 0.5;
+}
+
+.button2{
+    background-color: #777777;
+    position: absolute;
+    height:18vw;
+    width:20vw;
+    font-size: 4vw;
+    border-radius: 20%;
+    border-width: 1vw;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    border-color: #AAAAAA;
+    opacity:0.5;
+}
+
+.disabled:active{
+    color:white;
+}
 
 .select{
-    top:55vw;
-    height:20vw;
+    top: 55vw;
+    height: 20vw;
     width: 22vw;
-    left:39vw;
+    left: 39vw;
     color:white;
     font-weight: bold;
 }
@@ -125,8 +156,8 @@ body{
 
 @media screen and (prefers-color-scheme: light) {
     body {
-      background-color: #eafbff;
-      color: black;
+        background-color: #eafbff;
+        color: black;
     }
     .heading{
         background-color:#DDDDDD;
@@ -152,8 +183,6 @@ body{
         border-color: #1261a0;
     }
   }
-
-
 
   .theme-switch {
     position: absolute;
