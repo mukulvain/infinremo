@@ -3,13 +3,14 @@ body{
     
 }
 .heading{
-    color:whitesmoke;
+    color:dodgerblue;
     background-color: #020202;
     font-size:5vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 8vw;
     padding: 0vw 2vw;
     font-weight: bold;
+    border-width:0vw;
 
 }
 
@@ -38,16 +39,24 @@ body{
     left: 10vw;
 }
 
-
+.fas:active{
+    color:dodgerblue;
+}
+.button:active{
+    color:dodgerblue;
+    
+}
 .button:hover{
     border: solid dodgerblue;
     border-width: 1vw;
     transition-duration: 400ms;
     transition-timing-function: ease-in-out;
+    cursor: pointer;
 }
 
 .button{
     background-color: #777777;
+    color:dodgerblue;
     position: absolute;
     height:18vw;
     width:20vw;
@@ -56,6 +65,7 @@ body{
     border-width: 1vw;
     transition-duration: 400ms;
     transition-timing-function: ease-in-out;
+    border-color: #AAAAAA;
 }
 
 
@@ -114,7 +124,6 @@ body{
     }
     .heading{
         background-color:#DDDDDD;
-        color: #020202;
     }
     .fas{
         color:#020202;
@@ -131,7 +140,7 @@ body{
 
 
   .theme-switch {
-    top: 1vw;
+    top: 2vw;
     right: 10vw;
     height: 6.5vw;
     position: absolute;
