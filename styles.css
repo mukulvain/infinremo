@@ -5,13 +5,13 @@ body{
 }
 .heading{
     color:var(--heading-color);
-    /*background-color: var(--heading-bg-color);*/
+    background-color: var(--heading-bg-color);
     width:92vw;
     position: absolute;
-    top:2vw;
+    top:1vw;
     font-size: 5vw;
     height: 8vw;
-    padding: 0vw 2vw ;
+    padding: 2vw 2vw 0vw 2vw;
     font-weight: bold;
     border-radius: 2vw;
 }
@@ -197,8 +197,8 @@ body{
 
   .theme-switch {
     position: absolute;
-    top: 1vw;
-    right: 7vw;
+    top: 2vw;
+    right:6vw;
     height: 6.5vw;
     width: 12vw;
   }
@@ -208,7 +208,7 @@ body{
   }
   
   .slider {
-    background-color: #AAAAAA;
+    background-color: #888;
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -230,7 +230,8 @@ body{
   }
   
   input:checked + .slider {
-    background-color: #66bb6a;
+    /*background-color: #66bb6a;*/
+    background-color: #00bfff;
   }
   
   input:checked + .slider:before {
@@ -247,7 +248,7 @@ body{
 
   :root {
     --bg-color: #eafbff;
-    --heading-bg-color: #DDDDDD;
+    --heading-bg-color: #ddd;
     --heading-color:#1261a0;
     --icon-color:#020202;
     --button-bg-color:#AAAAAA;
