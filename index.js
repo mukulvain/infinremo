@@ -133,3 +133,58 @@ if (currentTheme) {
         toggleSwitch.checked = true;
     }
 }
+
+
+function leftb(){
+    var e = new KeyboardEvent("keydown", {
+        bubbles : true,
+        cancelable : true,
+        charCode : "0",
+        code: "ArrowLeft",
+        key : "ArrowLeft",
+        shiftKey : false,
+        keyCode : 37
+    });
+    document.dispatchEvent(e);
+}
+function rightb(){
+    var e = new KeyboardEvent("keydown", {
+        bubbles : true,
+        cancelable : true,
+        charCode : "0",
+        code: "ArrowRight",
+        key : "ArrowRight",
+        shiftKey : false,
+        keyCode : 39
+    });
+    document.dispatchEvent(e);
+}
+function upb(){
+    var e = new KeyboardEvent("keydown", {
+        bubbles : true,
+        cancelable : true,
+        charCode : "0",
+        code: "ArrowUp",
+        key : "ArrowUp",
+        shiftKey : false,
+        keyCode : 38
+    });
+    document.dispatchEvent(e);
+}
+function downb(){
+    var e = new KeyboardEvent("keydown", {
+        bubbles : true,
+        cancelable : true,
+        charCode : "0",
+        code: "ArrowDown",
+        key : "ArrowDown",
+        shiftKey : false,
+        keyCode : 40
+    });
+    document.dispatchEvent(e);
+}
+
+
+window.addEventListener("keydown", function(event) {
+    console.log(event);
+  }, true);
