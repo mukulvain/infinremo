@@ -165,40 +165,15 @@ body{
     left:62vw;
 }
 
-@media screen and (prefers-color-scheme: light) {
-    body {
-        background-color: var(--bg-color);
-        color:var(--button-border-color);
-    }
-    .heading{
-        background-color:var(--heading-bg-color);
-        color: var(--heading-color);
-    }
-    .enabled{
-        color:var(--icon-color);
-    }
-    .select{
-        color: var(--icon-color);
-    }
-    .button1{
-        background-color: var(--button-bg-color);
-        border-color:var(--button-border-color);
-    }
-    .enabled:active{
-        color:var(--heading-color);
-    }
-    .button1:active{
-        color:var(--heading-color);
-    }
-    .button1:hover{
-        border-color: var(--button-hover-color);
-    }
-  }
+.caption{
+    left:40vw;
+    top:120vw;
+}
 
   .theme-switch {
     position: absolute;
     top: 2vw;
-    right:6vw;
+    right:7vw;
     height: 6.5vw;
     width: 12vw;
   }
