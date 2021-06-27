@@ -114,8 +114,8 @@ function changeback(){
         document.getElementById("p11").innerHTML="<i class='disabled fas fa-closed-captioning fa-2x'></i>";
         document.getElementById("p11").className="button2 caption";
         if (selectcounter>0){
-            window.history.back();
-            // console.log("hi");
+//             window.history.back();
+            console.log("hi");
         }
         volumecounter=0;
         selectcounter=0;
